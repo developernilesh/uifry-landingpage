@@ -6,6 +6,7 @@ import Mobile1 from '../../../public/assets/Mobile1.png'
 import Ring from '../../../public/assets/Ring.png'
 import F1Bg1 from '../../../public/assets/FeaturesSec1/F1Bg1.png'
 import F1Bg2 from '../../../public/assets/FeaturesSec1/F1Bg2.png'
+import Star2 from '../../../public/assets/Star2.png'
 
 export default function FeaturesSec1() {
   return (
@@ -14,6 +15,7 @@ export default function FeaturesSec1() {
             <Image src={Mobile1} className="w-full ml-auto max-w-[450px]"/>
             <Image src={Ring} className="absolute top-8 left-0 md:left-[-25px] md:scale-[1.3] -z-10"/>
             <Image src={F1Bg1} className="absolute top-0 -z-20"/>
+            <Image src={Star2} className="absolute top-0 left-0 lg:top-[10%] lg:left-[-15%]"/>
         </div>
         <div className="w-full relative max-w-[638px] flex flex-col items-center md:items-start gap-8 -mt-14">
             <div className="flex flex-col items-center md:items-start gap-1"> 

@@ -3,11 +3,12 @@ import F2Bg from '../../public/assets/FeaturesSec2/F2Bg.png'
 import Ring from '../../public/assets/Ring.png'
 import Test1 from '../../public/assets/Testimonial/Test1.png'
 import Test2 from '../../public/assets/Testimonial/Test2.png'
+import Star9 from '../../public/assets/Star9.png'
 
 export default function Testimonial() {
     return (
-        <div className="w-11/12 max-w-[1090px] mx-auto">
-            <div className='w-full max-w-[455px] mx-auto mt-20 md:mt-10'>
+        <div className="w-11/12 max-w-[1090px] mx-auto pb-16">
+            <div className='w-full max-w-[455px] mx-auto my-20 md:my-10'>
                 <div className='text-[18px] leading-[28px] font-medium text-center'>
                     TESTIMONIAL
                 </div>
@@ -17,7 +18,8 @@ export default function Testimonial() {
                 <div className="w-full relative">
                     <Image src={Test1} className="w-full md:scale-150 pt-[23%] md:pt-[20%] pl-[10%]"/>
                     <Image src={Ring} className="absolute top-8 left-0 md:scale-[1.5] -z-10"/>
-                    <Image src={F2Bg} className="absolute top-0 -z-20"/>
+                    <Image src={F2Bg} className="absolute top-10 -z-20"/>
+                    <Image src={Star9} className='absolute left-0 lg:left-[-20%] bottom-[-10%]'/>
                 </div>
                 <div className="w-full relative max-w-[638px] pl-0 md:pl-[50px] lg:pl-[196px] flex flex-col items-center md:items-start gap-8 mt-4 lg:-mt-14">
                     <div className="flex flex-col items-center md:items-start gap-3">

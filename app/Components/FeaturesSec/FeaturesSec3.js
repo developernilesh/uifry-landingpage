@@ -4,6 +4,8 @@ import F3Bg from '../../../public/assets/FeaturesSec3/F3Bg.png'
 import Ring from '../../../public/assets/Ring.png'
 import Mobile1 from '../../../public/assets/Mobile1.png'
 import Card from '../../../public/assets/FeaturesSec3/Card.png'
+import Star6 from '../../../public/assets/Star6.png'
+import Star7 from '../../../public/assets/Star7.png'
 
 export default function FeaturesSec3() {
   return (
@@ -13,6 +15,7 @@ export default function FeaturesSec3() {
             <Image src={Ring} className="absolute top-8 left-0 md:left-[-25px] md:scale-[1.3] -z-10"/>
             <Image src={F3Bg} className="absolute top-0 -z-20"/>
             <Image src={Card} className='hidden xl:block absolute left-[32%] top-[22%]'/>
+            <Image src={Star6} className='absolute top-0 right-0 lg:top-[-10%]'/>
         </div>
         <div className="w-full relative max-w-[638px] flex flex-col items-center md:items-start gap-8 -mt-14">
             <div className="flex flex-col items-center md:items-start gap-3">
@@ -27,6 +30,7 @@ export default function FeaturesSec3() {
                 </div>
             </div>
         </div>
+        <Image src={Star7} className='absolute right-0 bottom-[-10%] md:bottom-0'/>
     </div>
   );
 }

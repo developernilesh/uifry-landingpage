@@ -15,6 +15,9 @@ module.exports = {
       screens: {
         'custom': '1440px'
       },
+      backgroundImage: {
+        'three-color-gradient': 'linear-gradient(45deg, #ffffff, #000000, #ffffff)',
+      },
     },
   },
   plugins: [],
