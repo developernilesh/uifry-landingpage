@@ -2,21 +2,25 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 ## Getting Started
 
-First, run the development server:
+To start building your own components and styles, follow these steps:
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+1. Clone the repository to your local machine.
+    ```sh
+    git clone https://github.com/developernilesh/uifry-landingpage.git
+    ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+2. Install the required packages.
+    ```sh
+    cd uifry-landingpage
+    npm install
+    ```
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+3. Start the development server.
+    ```sh
+    npm run dev
+    ```
+4. Open the project in your browser at [`http://localhost:3000`](http://localhost:3000) to view the project.
+5. You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
 
 This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
 
