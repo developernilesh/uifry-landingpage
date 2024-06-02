@@ -1,0 +1,15 @@
+#btn::before {
+    content: '';
+    background-color: #FF5555;
+    position: absolute;
+    inset: 0;
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: transform 0.5s;
+    z-index: -1;
+}
+  
+#btn:hover::before {
+    transform: scaleX(1);
+}
+  
